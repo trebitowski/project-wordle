@@ -19,7 +19,7 @@ function Game() {
         ...guesses,
         {
           id: crypto.randomUUID(),
-          guess
+          value: guess
         }
       ]
     )
